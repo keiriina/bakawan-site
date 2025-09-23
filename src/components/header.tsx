@@ -14,23 +14,23 @@ export default function Header() {
 
         {/* Navigation*/}
         <nav className="flex gap-15">
-          <Link href="/" className="btn rounded-[20px] flex items-center gap-2">
+          <Link href="/" className="btn rounded-[20px] flex items-center gap-2 font-poppins">
             <GoHome className="w-4 h-4" />
             About
           </Link>
-          <Link href="/about" className="btn rounded-[20px] flex items-center gap-2">
+          <Link href="/about" className="btn rounded-[20px] flex items-center gap-2 font-poppins">
             <GoBook className="w-4 h-4" />
             Stories
           </Link>
-          <Link href="/services" className="btn rounded-[20px] flex items-center gap-2">
+          <Link href="/services" className="btn rounded-[20px] flex items-center gap-2 font-poppins">
             <GoCodeOfConduct className="w-4 h-4" />
             Campaigns
           </Link>
-          <Link href="/contact" className="btn rounded-[20px] flex items-center gap-2">
+          <Link href="/contact" className="btn rounded-[20px] flex items-center gap-2 font-poppins">
             <GoMail className="w-4 h-4" />
             Contact
           </Link>
-          <Link href="/donate" className="btn rounded-[20px] flex items-center gap-2 bg-green-500 text-white hover:bg-green-800">
+          <Link href="/donate" className="btn rounded-[20px] flex items-center gap-2 bg-primary text-white hover:bg-green-800 font-poppins">
             <GoGift className="w-4 h-4" />
             Donate
         </Link>
