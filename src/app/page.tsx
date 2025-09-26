@@ -17,7 +17,6 @@ export default function Home() {
         <section className="absolute bottom-16 left-1/2 -translate-x-1/2 text-background px-4 py-2 text-sm font-poppins sm:text-base max-w-[90%] md:max-w-2xl text-center">
           This project is supported by the <strong>National Geographic Society</strong><br />and <strong>The Nature Conservancy</strong>.
         </section>
-
       </main>
       
       {/* Overview section */}
@@ -53,6 +52,18 @@ export default function Home() {
             <div className="font-chikara text-primary text-4xl sm:text-5xl md:text-6xl">5+</div>
             <div className="font-poppins text-secondary mt-2">Partner organizations</div>
           </div>
+        </div>
+      </section>
+
+      <section className="relative flex justify-center mt-5 bg-cover bg-center bg-no-repeat min-h-screen"
+        style={{ backgroundImage: "url('/images/mangrove-1.png')" }}
+      >
+      </section>
+
+      <section className="container mx-auto px-4 py-12 sm:py-16 md:py-20">
+        <div className="mx-auto max-w-4xl text-center">
+          <h3 className="font-chikara text-primary text-3xl sm:text-4xl md:text-5xl font-bold mb-4">Our Goals</h3>
+          
         </div>
       </section>
     </>
