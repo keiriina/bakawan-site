@@ -4,9 +4,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --color-primary: #188D00;
+  --color-primary: #104E04;
   --color-secondary: #282828;
-  --color-accent: #104E04;
+  --color-accent: #188D00;
 }
 
 @theme inline {

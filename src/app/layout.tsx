@@ -42,7 +42,7 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} ${chikara.variable} ${poppins.variable}`}
     >
-      <body className="antialiased">{children}</body>
+      <body className="antialiased font-poppins">{children}</body>
     </html>
   );
 }
