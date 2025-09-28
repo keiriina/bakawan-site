@@ -2,8 +2,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
-import {GoHome, GoBook, GoCodeOfConduct, GoMail, GoGift} from "react-icons/go";
 import { usePathname } from "next/navigation";
 
 export default function Header() {
@@ -22,14 +20,14 @@ export default function Header() {
             {/* <GoHome className="w-4 h-4" /> */}
             About
           </Link>
-          <Link href="/about" className={`${baseLink} ${isActive("/about") ? activeLink : ""}`}
-            aria-current={isActive("/about") ? "page" : undefined}
+          <Link href="/stories" className={`${baseLink} ${isActive("/stories") ? activeLink : ""}`}
+            aria-current={isActive("/stories") ? "page" : undefined}
           >
             {/* <GoBook className="w-4 h-4" /> */}
             Stories
           </Link>
-          <Link href="/services" className={`${baseLink} ${isActive("/services") ? activeLink : ""}`}
-            aria-current={isActive("/services") ? "page" : undefined}
+          <Link href="/campaigns" className={`${baseLink} ${isActive("/campaigns") ? activeLink : ""}`}
+            aria-current={isActive("/campaigns") ? "page" : undefined}
           >
             {/* <GoCodeOfConduct className="w-4 h-4" /> */}
             Campaigns

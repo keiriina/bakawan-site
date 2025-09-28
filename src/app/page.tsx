@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { GoCreditCard, GoHeart, GoHome } from "react-icons/go";
 import { TiCreditCard, TiHeart, TiHomeOutline } from "react-icons/ti";
 
-export default function Home() {
+export default function About() {
   return (
     <>
       <Header />
