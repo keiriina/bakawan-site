@@ -1,3 +1,4 @@
+import Footer from "@/components/footer";
 import Header from "@/components/header";
 import { Card, CardContent } from "@/components/ui/card";
 import { GoCreditCard, GoHeart, GoHome } from "react-icons/go";
@@ -114,6 +115,7 @@ export default function About() {
         style={{ backgroundImage: "url('/images/mangrove-1.png')" }}
       >
       </section>
+      <Footer />
     </>
   );
 }

@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { storiesData } from "@/data/stories"
+import Footer from "@/components/footer"
 
 export default function Stories() {
   return (
@@ -30,7 +31,7 @@ export default function Stories() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-4 left-4 text-white">
-                      <div className="inline-block px-2 py-1 bg-emerald-600 rounded-full text-xs font-medium mb-2">
+                      <div className="inline-block px-2 py-1 bg-primary rounded-full text-xs font-medium mb-2">
                         {story.location}
                       </div>
                       <h3 className="font-semibold text-lg mb-1">{story.title}</h3>
@@ -56,6 +57,7 @@ export default function Stories() {
           </button>
         </div>
       </section>
+      <Footer />
     </div>
   )
 }
